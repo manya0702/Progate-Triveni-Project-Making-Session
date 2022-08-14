@@ -1,0 +1,276 @@
+body {
+    font-family: "Avenir Next";
+  }
+  
+  li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .header {
+    background-color: #26d0c9;
+    color: #fff;
+    height: 90px;
+    border-radius: 5px;
+  }
+  
+  .header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+  }
+
+  .pgn{
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 22px;
+  }
+  
+  .header-list li {
+    float: left;
+    padding: 33px 20px;
+  }
+
+  .op{
+    font-size: 22px;
+  }
+
+  .header-list a{
+    transition: all 0.5s ;
+    color:white;
+    text-decoration-color: #ffc562;
+    text-decoration-line: underline;
+  }
+
+  .header-list a:hover{
+    font-size: 24px;
+  }
+
+  .About p{
+    font-size: 22px;
+  }
+  
+
+  .copy-container {
+    padding:10px;
+    letter-spacing: 1px;
+  }
+
+  .copy-container img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    left:780px;
+    top:120px;
+    border: 2px solid #34737d;
+  }
+
+  .copy-container h2{
+    font-size:40px;
+    color:#2f5167;
+    position:relative;
+    height:10px;
+  }
+
+  .copy-container h3{
+    font-size:40px;
+    color:#2f5167;
+    position:relative;
+    height:20px;
+    padding-left: 240px;
+  }
+  
+  .copy-container img,h2{
+    display:inline-block;
+  }
+
+  .main {
+    padding: 0px 80px 100px 80px;
+  }
+  
+  .copy-container h3{
+    font-size: 40px;
+  }
+  
+  .copy-container h2 {
+    font-size: 50px;
+  }
+  
+  .copy-container span {
+    color: #ff4a4a;
+  }
+  
+  .contents {
+    margin-top: 100px;
+    height:500px;
+  }
+  
+  .section-title {
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .contents-item p {
+    font-size: 24px;
+    margin-top: 30px;
+  }
+
+  .contents-item li {
+    margin-right: 5px;
+    font-size: 24px;
+    color: white;
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+
+  .Hobbies {
+    height: 600px;
+  }
+
+  .l {
+    float: left;
+  }
+
+  .html{
+    background-color: #ffc562;
+  }
+
+  .cmline{
+    background-color: #239b76;    
+  }
+
+  .sass{
+    background-color: #ff8db3;
+  }
+
+  .js{
+    background-color: #2756bc;
+  }
+  
+  .git{
+    background: #62696d;
+  }
+
+  .java{
+    background-color: rgba(86, 71, 54, 0.989);
+    margin-left: 203px;
+  }
+
+  .ruby{
+    background-color: #ff4a4a;
+  }
+
+  .python{
+    background-color: rgb(61, 61, 129);
+  }
+
+  .Hobbies li,img{
+    margin-right: 5px;
+    font-size: 24px;
+    color: white;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 1px;
+    padding: 10px 10px;
+  }
+
+  .bb{
+    height: 300px;
+    width: 200px;
+    background-color: #239b76;
+  }
+
+  .bt{
+    height: 300px;
+    width: 200px;
+    background-color: #2756bc;
+  }
+
+  .cd{
+    height: 300px;
+    width: 450px;
+    background-color: #ff4a4a;
+  }
+
+  .Hobbies li{
+    margin-right: 10px;
+    font-size: 24px;
+    color: white;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 10px;
+    float: left;
+  }
+
+  .o{
+    margin-left:37px;
+  }
+
+  .contact-form {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .contac-form {
+    padding-top:10px;
+    text-align: center;    
+    font-size: 22px;
+  }
+  
+  .Achivements li{
+    font-size: 22px;
+    list-style: disc;
+  }
+  /* Add CSS for <input> and <textarea> tags */
+  input, textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+  }
+  
+  /* Add CSS for contact-submit */
+  .contact-submit {
+    background-color: #dee7ec;
+    color: #889eab;
+  }
+  
+  .footer {
+    background-color: #2f5167;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+    border-radius: 5px;
+  }
+  
+  .footer-logo {
+    float: left;
+    font-size: 32px;
+    position: relative;
+    top:40px;
+  }
+  
+  .footer-list {
+    float: right;
+    position: relative;
+  }
+  
+  .footer-list li {
+    padding-bottom: 20px;
+  }
